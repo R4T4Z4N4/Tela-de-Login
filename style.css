@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 
 body{
     margin: 0;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+  font-style: normal
 }
 
 body * {
@@ -102,6 +106,36 @@ body * {
     color: #8692de;
 }
 
+.rodape{
+    margin-top: 0px !important;
+    padding-top: 10px;
+}
+.rodape1{
+    margin-bottom: 0px !important;
+    padding-bottom: 10px;
+
+}
+
+.btn-login:hover {
+    background-color: #f39ee8;
+}
+
+footer {
+    
+    background: rgba(230, 126, 214, 0.507) none repeat scroll 0% 0%;
+    width: 100vw; /* Largura total da página */
+    color: #0a0a0a; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0px !important; /* Espaçamento interno */
+    bottom: 0px !important; /* Alinha ao fundo da página */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: #070707;
+    font-size: 1rem; /*Tamanho da fonte*/
+
+    
+}
+
 .btn-login {
     width: 100%;
     padding: 16px 0px;
@@ -112,8 +146,8 @@ body * {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
-    color: #000;
-    background: #0281;
+    color: #0f0f0f;
+    background: #d8d8d8;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #000;
 }

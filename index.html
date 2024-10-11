@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
 </head>
 <body>
     <div class="main-login">
-        <div class="left-login">
-            <h1>FAÇA LOGIN</h1>
+        <div class="handjet-uniquifier animate__animated animate__fadeIn left-login">
+            <h1>NewHera</h1>
             <img src="img/work.svg" class="left-login-image"> 
         </div>
-        <div class="right-login">
+        <div class=" handjet-uniquifier animate__animated animate__backInRight right-login">
             <div class="card-login">
-                <h1>LOGIN</h1>
+                <h1> LOGIN </h1>
                 <div class="textfield">
                     <label for="usuario">Usuário</label> 
                     <input type="text" name="usuario" placeholder="Usuário">
@@ -23,9 +30,16 @@
                     <label for="senha">Senha</label> 
                     <input type="password" name="senha" placeholder="Senha">
                 </div>
-                <button class="btn-login">Login</button>
+                <button class="btn-login" id="botao-login" onclick="botaoLogin()">Login</button>
             </div>
         </div>
     </div>
+    <footer>
+        <p class="rodape"> 2024 - NewHera. Todos os direitos reservados.</p>
+        <p class="rodape1"> Entre em contato através do e-mail: newhera2024@gmail.com</p>
+        
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
